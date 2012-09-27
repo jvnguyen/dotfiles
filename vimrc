@@ -12,7 +12,6 @@ Bundle 'jc00ke/taglist.vim'
 Bundle 'ervandew/supertab'
 Bundle 'msanders/snipmate.vim'
 
-
 " Enables syntax highlighting by default.
 if has("syntax")
   syntax on
@@ -47,3 +46,11 @@ set hidden              " Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
 set foldmethod=indent   " Enable code folding
 set foldlevel=99
+set number              " Enable line numbers
+
+" Useful keymappings
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+map <F2> :NERDTreeToggle<CR>
